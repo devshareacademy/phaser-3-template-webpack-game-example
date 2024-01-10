@@ -6,6 +6,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
+  entry: "./src/index.js",
   mode: "production",
   output: {
     path: path.resolve(process.cwd(), 'dist'),
@@ -38,6 +39,7 @@ module.exports = {
   optimization: {
     minimizer: [
       new TerserPlugin({
+        exclude: /assets/,
         terserOptions: {
           output: {
             comments: false
