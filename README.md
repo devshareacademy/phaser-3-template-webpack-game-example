@@ -1,3 +1,15 @@
+# Phaser 3 Webpack Project Template - Germs Demo
+
+This is a fork of the official Phaser 3 Webpack Project template that can be found here: https://github.com/phaserjs/template-webpack.
+
+This template has been modified to use the example Phaser 3 Game - [Avoid the Germs](https://github.com/phaserjs/examples/tree/master/public/3.55/src/games/avoid%20the%20germs).
+
+![Germs game](germs.png "Example phaser 3 game")
+
+---
+
+<br />
+
 # Phaser 3 Webpack Project Template
 
 A Phaser 3 project template with ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 5](https://webpack.js.org/) that includes hot-reloading for development and production-ready builds.
@@ -6,7 +18,6 @@ This has been updated for Phaser 3.60.0 version and above.
 
 Loading images via JavaScript module `import` is also supported, although not recommended.
 
-![Screenshot](example.png)
 
 ## Requirements
 
@@ -69,6 +80,6 @@ If you want to customize your build, such as adding a new webpack loader or plug
 
 ## Deploying Code
 
-After you run the `npm run build` command, your code will be built into a single bundle located at `dist/bundle.min.js` along with any other assets you project depended. 
+After you run the `npm run build` command, your code will be built into a single bundle located at `dist/bundle.min.js` along with any other assets you project depended.
 
 If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://mycoolserver.com`), you should be able to open `http://mycoolserver.com/index.html` and play your game.
