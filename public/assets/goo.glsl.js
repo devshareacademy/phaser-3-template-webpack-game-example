@@ -33,7 +33,7 @@ void mainImage(out vec4 k, vec2 p)
     float gooeyness = 0.90;                     // smaller = more gooey bits
     float wibble = 0.5;                         // tweak the wibble!
     float goo = GooFunc(uv, zoom, distortion, gooeyness,wibble);
-    
+
     const vec4 col1 = vec4(0.0,.1,.1,1.0);
     const vec4 col2 = vec4(0.5,0.9,0.3,1.0);
     float saturation = 2.4;
